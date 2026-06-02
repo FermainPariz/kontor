@@ -152,6 +152,7 @@
     "clubleben": {
       "kicker": "Clubleben",
       "titel": "So fühlt sich das Kontor an",
+      "zitat": "Hier sitzt nicht jeden Abend ein anderes Gesicht am Tisch.",
       "intro": "Das Kontor ist kein Netzwerk-Termin im Kalender, sondern ein fester Kreis, in dem man sich kennt.",
       "absaetze": [
         "Bei uns sitzt nicht jeden Abend ein anderes Gesicht am Tisch. Der Kreis bleibt überschaubar, damit Vertrauen wachsen kann. Wer sich über Monate begegnet, empfiehlt anders als jemand, den man einmal auf einer Messe getroffen hat.",
@@ -162,6 +163,7 @@
     "philosophie": {
       "kicker": "Philosophie",
       "titel": "Warum ein Vertreter je Branche",
+      "zitat": "Deine Branche gehört dir, solange du dabei bist.",
       "intro": "Die Regel klingt streng, ist aber der Grund, warum das Kontor funktioniert.",
       "absaetze": [
         "Wenn am selben Tisch zwei Steuerberater oder zwei Handwerker sitzen, entsteht Wettbewerb statt Empfehlung. Niemand schickt einen Kunden zur direkten Konkurrenz. Deshalb gibt es im Kontor pro Branche nur einen Vertreter.",
@@ -172,6 +174,7 @@
     "charta": {
       "kicker": "Charta",
       "titel": "Worauf wir uns verständigen",
+      "zitat": "Wenige Regeln, klar gemeint, von allen gehalten.",
       "intro": "Ein paar einfache Grundsätze halten das Kontor zusammen.",
       "punkte": [
         "Eine Branche, ein Vertreter. Kein interner Wettbewerb.",
@@ -191,10 +194,12 @@
     },
     "business": {
       "titel": "Business Events",
+      "zitat": "Jeder sagt, was er sucht und was er bieten kann.",
       "text": "Hier geht es um konkrete Empfehlungen, Aufträge und Zusammenarbeit. Jeder stellt vor, was er sucht und was er bieten kann. Wenn du selbst nicht kannst, darf ein fester Vertreter aus deinem Unternehmen kommen."
     },
     "social": {
       "titel": "Social Events",
+      "zitat": "Ohne Agenda lernt man den Menschen hinter der Firma kennen.",
       "text": "Locker, persönlich, ohne Agenda. Hier lernt man den Menschen hinter der Firma kennen. Freunde und Kollegen dürfen mitkommen, wenn sie zur Idee vom Kontor passen."
     },
     "kalender": {
@@ -221,6 +226,7 @@
     "vorteile": {
       "kicker": "Mitgliedschaft",
       "titel": "Was du im Kontor bekommst",
+      "zitat": "Dein Platz, deine Branche, ein Kreis der dich kennt.",
       "intro": "Eine Mitgliedschaft ist mehr als ein Eintrag in einer Liste. Sie sichert dir deinen Platz und deine Branche.",
       "punkte": [
         "Deine Branche gehört dir. Kein direkter Wettbewerb im Club.",
@@ -241,6 +247,7 @@
     "beratung": {
       "kicker": "Kontakt",
       "titel": "Lass uns reden",
+      "zitat": "Ist deine Branche noch frei? Frag einfach nach.",
       "intro": "Du hast Fragen zum Kontor oder willst wissen, ob deine Branche noch frei ist? Schreib uns, wir melden uns zeitnah."
     },
     "formular": {

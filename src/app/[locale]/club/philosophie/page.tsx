@@ -6,6 +6,8 @@ import { Kicker } from "@/components/ui/kicker";
 import { GoldRule } from "@/components/ui/gold-rule";
 import { ImageOverlay } from "@/components/ui/image-overlay";
 import { Reveal } from "@/components/ui/reveal";
+import { ChapterNav } from "@/components/chapter-nav";
+import { ChapterOutro } from "@/components/chapter-outro";
 
 type PageProps = {
   params: Promise<{ locale: string }>;
@@ -43,12 +45,20 @@ export default async function PhilosophiePage({ params }: PageProps) {
         <GoldRule diamonds className="mx-0 mt-6" />
       </ImageOverlay>
 
+      <ChapterNav groupKey="club" />
+
       <Section background="pergament">
         <Container variant="text">
           <Reveal>
             <p className="font-sans text-xl font-light leading-relaxed text-tinte/85">
               {t("intro")}
             </p>
+          </Reveal>
+
+          <Reveal>
+            <blockquote className="my-12 border-l-2 border-gold pl-6 font-serif text-2xl leading-snug text-koenigsblau sm:text-3xl">
+              {t("zitat")}
+            </blockquote>
           </Reveal>
 
           <div className="mt-10 flex flex-col gap-6">
@@ -62,6 +72,8 @@ export default async function PhilosophiePage({ params }: PageProps) {
           </div>
         </Container>
       </Section>
+
+      <ChapterOutro groupKey="club" />
     </>
   );
 }

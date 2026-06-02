@@ -9,6 +9,8 @@ import { Field, Input } from "@/components/ui/field";
 import { Button } from "@/components/ui/button";
 import { ImageOverlay } from "@/components/ui/image-overlay";
 import { Reveal } from "@/components/ui/reveal";
+import { ChapterNav } from "@/components/chapter-nav";
+import { ChapterOutro } from "@/components/chapter-outro";
 
 type PageProps = {
   params: Promise<{ locale: string }>;
@@ -45,6 +47,8 @@ export default async function MembersPage({ params }: PageProps) {
         <GoldRule diamonds className="mx-0 mt-6" />
       </ImageOverlay>
 
+      <ChapterNav groupKey="members" />
+
       <Section background="pergament">
         <Container variant="text">
           <Reveal>
@@ -80,6 +84,8 @@ export default async function MembersPage({ params }: PageProps) {
           </Reveal>
         </Container>
       </Section>
+
+      <ChapterOutro groupKey="members" />
     </>
   );
 }

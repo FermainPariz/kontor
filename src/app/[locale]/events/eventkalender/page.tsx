@@ -7,6 +7,8 @@ import { GoldRule } from "@/components/ui/gold-rule";
 import { ImageOverlay } from "@/components/ui/image-overlay";
 import { Reveal } from "@/components/ui/reveal";
 import { EventRegistrationForm } from "@/components/forms/event-registration-form";
+import { ChapterNav } from "@/components/chapter-nav";
+import { ChapterOutro } from "@/components/chapter-outro";
 
 /**
  * Eventkalender.
@@ -46,6 +48,8 @@ export default async function EventkalenderPage({
           {t("kalender.text")}
         </p>
       </ImageOverlay>
+
+      <ChapterNav groupKey="events" />
 
       <Section background="koenigsblau">
         <Container variant="text">
@@ -87,6 +91,8 @@ export default async function EventkalenderPage({
           <EventRegistrationForm eventName={eventName} />
         </Container>
       </Section>
+
+      <ChapterOutro groupKey="events" />
     </>
   );
 }

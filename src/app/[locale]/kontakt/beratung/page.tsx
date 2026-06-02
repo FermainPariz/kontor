@@ -6,6 +6,8 @@ import { GoldRule } from "@/components/ui/gold-rule";
 import { ImageOverlay } from "@/components/ui/image-overlay";
 import { Reveal } from "@/components/ui/reveal";
 import { Button } from "@/components/ui/button";
+import { ChapterNav } from "@/components/chapter-nav";
+import { ChapterOutro } from "@/components/chapter-outro";
 
 /**
  * Kontakt / Beratung.
@@ -38,12 +40,20 @@ export default async function BeratungPage({
         <GoldRule diamonds className="mx-0 mt-6" />
       </ImageOverlay>
 
+      <ChapterNav groupKey="kontakt" />
+
       <Section background="pergament">
         <Container variant="text">
           <Reveal>
             <p className="font-sans text-xl font-light leading-relaxed text-tinte/85">
               {t("intro")}
             </p>
+          </Reveal>
+
+          <Reveal>
+            <blockquote className="my-12 border-l-2 border-gold pl-6 font-serif text-2xl leading-snug text-koenigsblau sm:text-3xl">
+              {t("zitat")}
+            </blockquote>
           </Reveal>
 
           <Reveal delay={120}>
@@ -58,6 +68,8 @@ export default async function BeratungPage({
           </Reveal>
         </Container>
       </Section>
+
+      <ChapterOutro groupKey="kontakt" />
     </>
   );
 }

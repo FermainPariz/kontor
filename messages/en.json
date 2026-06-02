@@ -152,6 +152,7 @@
     "clubleben": {
       "kicker": "Club life",
       "titel": "How Kontor feels",
+      "zitat": "There is not a different face at the table every evening.",
       "intro": "Kontor is not just another networking date in your calendar. It is a fixed circle where people actually know each other.",
       "absaetze": [
         "With us there is not a different face at the table every evening. The circle stays small enough for trust to grow. People who meet over months recommend differently than someone you ran into once at a trade fair.",
@@ -162,6 +163,7 @@
     "philosophie": {
       "kicker": "Philosophy",
       "titel": "Why one representative per industry",
+      "zitat": "Your industry is yours for as long as you are in.",
       "intro": "The rule sounds strict, but it is the reason Kontor works.",
       "absaetze": [
         "If two accountants or two tradespeople sit at the same table, you get competition instead of referrals. No one sends a client to a direct rival. That is why Kontor has only one representative per industry.",
@@ -172,6 +174,7 @@
     "charta": {
       "kicker": "Charter",
       "titel": "What we agree on",
+      "zitat": "Few rules, clearly meant, kept by everyone.",
       "intro": "A few simple principles hold Kontor together.",
       "punkte": [
         "One industry, one representative. No internal competition.",
@@ -191,10 +194,12 @@
     },
     "business": {
       "titel": "Business events",
+      "zitat": "Everyone says what they are looking for and what they can offer.",
       "text": "This is about concrete referrals, projects and collaboration. Everyone presents what they are looking for and what they can offer. If you cannot attend yourself, a fixed representative from your company may come."
     },
     "social": {
       "titel": "Social events",
+      "zitat": "No agenda, just the person behind the company.",
       "text": "Relaxed, personal, no agenda. This is where you get to know the person behind the company. Friends and colleagues may join if they fit the idea behind Kontor."
     },
     "kalender": {
@@ -221,6 +226,7 @@
     "vorteile": {
       "kicker": "Membership",
       "titel": "What you get at Kontor",
+      "zitat": "Your spot, your industry, a circle that knows you.",
       "intro": "A membership is more than a line on a list. It secures your spot and your industry.",
       "punkte": [
         "Your industry is yours. No direct competition inside the club.",
@@ -241,6 +247,7 @@
     "beratung": {
       "kicker": "Contact",
       "titel": "Let us talk",
+      "zitat": "Is your industry still open? Just ask us.",
       "intro": "Questions about Kontor, or want to know whether your industry is still open? Write to us and we will get back to you soon."
     },
     "formular": {

@@ -6,6 +6,8 @@ import { GoldRule } from "@/components/ui/gold-rule";
 import { ImageOverlay } from "@/components/ui/image-overlay";
 import { Reveal } from "@/components/ui/reveal";
 import { Button } from "@/components/ui/button";
+import { ChapterNav } from "@/components/chapter-nav";
+import { ChapterOutro } from "@/components/chapter-outro";
 
 /**
  * Kapitelseite Social Events.
@@ -41,12 +43,20 @@ export default async function SocialEventsPage({
         </p>
       </ImageOverlay>
 
+      <ChapterNav groupKey="events" />
+
       <Section background="pergament">
         <Container variant="text" className="flex flex-col gap-8">
           <Reveal>
             <p className="font-sans text-lg font-light leading-relaxed text-tinte/85">
               {t("intro.text")}
             </p>
+          </Reveal>
+
+          <Reveal>
+            <blockquote className="my-12 border-l-2 border-gold pl-6 font-serif text-2xl leading-snug text-koenigsblau sm:text-3xl">
+              {t("social.zitat")}
+            </blockquote>
           </Reveal>
 
           <Reveal delay={80}>
@@ -63,6 +73,8 @@ export default async function SocialEventsPage({
           </Reveal>
         </Container>
       </Section>
+
+      <ChapterOutro groupKey="events" />
     </>
   );
 }
